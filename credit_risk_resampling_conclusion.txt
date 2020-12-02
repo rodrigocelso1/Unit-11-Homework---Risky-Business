@@ -1,0 +1,9 @@
+CONCLUSIONS
+----------------------------
+Which model had the best balanced accuracy score?
+Answer:A combination over- and under-sampling algorithm SMOTEENN seems to have the best score
+----------------------------
+Which model had the best recall score?
+Which model had the best geometric mean score?
+Answer:SMOTE algorithm got the best recall and geometric mean score.
+However, it was observed using low-dimensional data that simple undersampling tends to outperform SMOTE in most situations. For credit risk SMOTE seems beneficial but less effective than simple undersampling for low-dimensional data, while it performs very similarly to uncorrected SVM and generally much worse than undersampling for high-dimensional data

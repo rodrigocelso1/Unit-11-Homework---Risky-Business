@@ -1,0 +1,14 @@
+CONCLUSIONS
+----------------------------
+Which model had the best balanced accuracy score?
+Answer:The model with the best score is EasyEnsembleClassifier
+----------------------------
+Which model had the best recall score?
+Answer:The recall score is the same for both models, because TruePositive and FalseNegative are the same as well.
+----------------------------
+Which model had the best geometric mean score?
+Answer: The geometic mean score are the same in both models, but as we want to predict credit risk, we would trust Balanced Random Forest Classifier.
+----------------------------
+What are the top three features?
+The best three features are: total_debt, num_of_accounts and debt_to_income.
+It means that rather than the Borrower income, this three features have more impact in the Loan status because it demonstrates how much debit the Borrower already has and how much it is comparing with the Borrower income
